@@ -32,6 +32,7 @@ function HomeDashboard() {
         setContent(response.data.data.map((ele: any, i: number) => {
             return (
                 <MiniAppDisplayCard
+                    detail_url={`/anime/${ele.mal_id}`}
                     url={ele.images.webp.image_url}
                     id={ele.mal_id}
                     name={''}

@@ -19,6 +19,7 @@ function HomeDashboard() {
                 <MiniAppDisplayCard 
                             url={ele.images.webp.image_url}
                             id={ele.mal_id}
+                            detail_url={`/anime/${ele.mal_id}`}
                             name={''}
                             />
             )
@@ -26,7 +27,11 @@ function HomeDashboard() {
     }
 
     useEffect(()=>{
-        getApiData()
+        let counter = 1
+        if (counter){
+            getApiData()
+            counter = 0;
+        }
     })
 
     const getPreviousPage = async(e:any)=>{

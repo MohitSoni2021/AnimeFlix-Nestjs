@@ -36,6 +36,7 @@ function CharacterCrausalComponent(props:any) {
                         id={props.id}
                         url={ele.character.images.webp.image_url}
                         name={ele.character.name}
+                        detail_url={`/character/${ele.character.mal_id}`}
                         />
                     )
                 })

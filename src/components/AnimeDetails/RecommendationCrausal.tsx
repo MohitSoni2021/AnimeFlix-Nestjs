@@ -33,6 +33,7 @@ function RecommendationCrausalComponent(props:any) {
                 ApiResponseData.data.map((ele:any, id:number)=>{
                     return(
                         <MiniAppDisplayCard
+                        detail_url={`/anime/${ele.entry.mal_id}`}
                         id={ele.entry.mal_id}
                         url={ele.entry.images.webp.image_url}
                         name={ele.entry.title}

@@ -1,11 +1,12 @@
 import React from "react";
+import cssStyles from '@/styles/loading.module.css'
 
 function Loading() {
     return ( 
         <>
-            <div className="w-full h-full text-center text-5xl bg-dark text-red-600 font-bold">
-                Loading...
-            </div>
+        <div className={`w-full text-red-600 max-sm:text-5xl text-7xl my-5 py-5 ${cssStyles.BebasNeueFont} text-center`}>
+            AnimeFlix
+        </div>
         </>
      );
 }

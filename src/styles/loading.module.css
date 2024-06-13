@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@keyframes scaleAnimation {
+    0%   {scale: 1;}
+    50%  {scale: 2;}
+    100% {scale: 1;}
+  }
+
+.BebasNeueFont{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: scaleAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
