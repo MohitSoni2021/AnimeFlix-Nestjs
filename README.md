@@ -1,4 +1,3 @@
-![Alt text](https://raw.githubusercontent.com/MohitSoni2021/AnimeFlix-Nestjs/refs/heads/main/Preview/1.png)
 # AnimeFlix
 
 AnimeFlix is a Next.js-based web application that allows users to explore anime shows. The website fetches anime data from an API and displays a list of anime cards. Users can click on a specific anime to view its detailed information, including the characters involved and recommended similar anime titles.
@@ -17,10 +16,28 @@ AnimeFlix is a Next.js-based web application that allows users to explore anime 
 - **CSS Framework**: Tailwind CSS for styling (or any other styling framework you prefer).
 - **State Management**: React hooks for state management (or Context API).
 
+##Preview Images
+![Alt Home](https://raw.githubusercontent.com/MohitSoni2021/AnimeFlix-Nestjs/refs/heads/main/Preview/1.png)
+![Alt details](https://raw.githubusercontent.com/MohitSoni2021/AnimeFlix-Nestjs/refs/heads/main/Preview/2.png)
+![Alt details](https://raw.githubusercontent.com/MohitSoni2021/AnimeFlix-Nestjs/refs/heads/main/Preview/3.png)
+![Alt character](https://raw.githubusercontent.com/MohitSoni2021/AnimeFlix-Nestjs/refs/heads/main/Preview/4.png)
+
 ## Installation
 
 Follow these steps to run AnimeFlix locally on your machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/animeflix.git
+   git clone https://github.com/MohitSoni2021/animeflix.git
+
+2. **Nevigate to the cloned repository**:
+   ```bash
+   cd ./animeflix
+
+3. **Install npm packages**:
+   ```bash
+   npm i
+
+4. **Run the server**:
+   ```bash
+   npm run dev
