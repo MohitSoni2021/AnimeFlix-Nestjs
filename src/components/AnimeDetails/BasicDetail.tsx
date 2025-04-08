@@ -37,7 +37,7 @@ function BasicAnimeDetailsPage(props: any) {
 
                 </div>
                 <div className={` m-2 rounded-lg py-2 relative mt-5 ${cssStyles.boxShadowSm}`}>
-                    <span className='bg-dark text-2xl font-bold text-red-600 mx-2 px-2 absolute -top-5'>{ApiData.title || ""}</span>
+                    <span className='bg-dark text-2xl font-bold text-red-600 mx-2 px-2 absolute -top-5'>{ApiData.titles || ""}</span>
 
                     <div className='text-sm mt-2 mb-3 text-white'>
                         <div className='font-bold px-2 my-2 w-full text-center mt-3'>Titles</div>
