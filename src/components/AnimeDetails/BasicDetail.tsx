@@ -15,8 +15,8 @@ function BasicAnimeDetailsPage(props: any) {
         type: "",
         rank: 0,
         score: 0,
-        rating: 0
-        
+        rating: 0,
+        synopsis: ""
     });
     const getdata = async () => {
         const response = await axios.get(`https://api.jikan.moe/v4/anime/${props.id}/full`)
