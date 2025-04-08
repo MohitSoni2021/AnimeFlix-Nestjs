@@ -10,7 +10,7 @@ function BasicAnimeDetailsPage(props: any) {
     const [ApiData, setApiData] = React.useState({
         titles: [1, 2],
         genres: [1, 2],
-        duration: 00,
+        duration: 0,
         episodes: [],
         type: "",
         rank: 0,
