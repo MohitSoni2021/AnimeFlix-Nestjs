@@ -9,6 +9,13 @@ function BasicAnimeDetailsPage(props:any) {
     const [ApiData, setApiData] = React.useState({
         titles:[1,2],
         genres:[1,2],
+        duration: 0,
+        episodes: [],
+        type: "",
+        rank: 0,
+        score: 0,
+        rating: 0,
+        synopsis: ""
     });
     const getdata = async()=>{
         const response = await axios.get(`https://api.jikan.moe/v4/anime/${props.id}/full`)
